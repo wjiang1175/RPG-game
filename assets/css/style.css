@@ -1,0 +1,96 @@
+/* background */
+#backGround{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+/* cards */
+.card-body{
+    padding: 0 !important;
+}
+#ryu-card{
+    width: 100px;
+    height: 170px;
+}
+#ken-card{
+    width: 100px;
+    height: 170px;
+}
+#chun-card{
+    width: 100px;
+    height: 170px;
+}
+#vega-card{
+    width: 100px;
+    height: 170px;
+}
+.card-row{
+    margin-left: .5vw;
+}
+.card-title{
+    background-color: gray;
+    margin-bottom: 0 !important;
+    padding-bottom: 6px !important;
+    padding-top: 6px !important;
+    color: white;
+    text-align: center;
+}
+/* .card-group{
+    width: 35vw;
+} */
+.card-text{
+    text-align: center;
+}
+.card {
+    margin-right: 1vw;
+    border: 0;
+
+}
+/* .ryu{
+    margin-left: 2vw;
+} */
+/* text */
+.yourChar{
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+}
+.availableChallenger{
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+}
+#yourFighter {
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+}
+.street-title{
+    color: yellow;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title-container{
+    width: 550px;
+}
+.container2 {
+    margin-left: 2vw !important;
+}
+.player {
+    border: 5px solid yellow;
+    margin-left: 1.15vw;
+    
+}
+.challengers {
+    border: 5px solid rgba(255, 136, 0, 0.808);
+    display: inline-block;
+}
+.theChallenger{
+    border: 5px solid red;
+    margin-left: 1.15vw;
+}
